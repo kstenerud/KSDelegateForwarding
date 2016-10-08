@@ -49,7 +49,6 @@ In the implementation:
 ```objc
     #import "KSDelegateForwardingImpl.h"
 
-    // In the implementation.
     KSDF_BEGIN_DELEGATE_FORWARDING_IMPLEMENTATION(ForwardingSomeService, SomeServiceDelegate, SomeService*, delegate)
 
     KSDF_FORWARD_TO_DELEGATES(serviceDidSomething)
